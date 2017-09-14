@@ -1,4 +1,4 @@
-package pack;
+package basic;
 
 public class ModuloExample extends SystemOutPrinter{
 
