@@ -3,8 +3,7 @@ package pack;
 public class Main {
 
 	public static void main(String[] args) {
-		new ModuloExample().run();//gg
-
+		FileReaderExample fileReader = new FileReaderExample();
+		fileReader.readFileFromPath("D:\\OneDrive\\STV Sempach\\LA Jugend\\Schuljahr 17 18\\Turnerabend\\Turnerabend Nummer LA Jugend.txt");
 	}
-
 }
