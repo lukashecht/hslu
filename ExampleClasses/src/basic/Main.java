@@ -13,5 +13,13 @@ public class Main {
 		
 		LambdaExample lambda = new LambdaExample();
 		lambda.run();
+		
+		SingletonExample.getInstance().printNextNumber();
+		SingletonExample.getInstance().printNextNumber();
+		SingletonExample.getInstance().printNextNumber();
+		SingletonExample.getInstance().printNextNumber();
+		SingletonExample.getInstance().printNextNumber();
+		SingletonExample.getInstance().printNextNumber();
+		
 	}
 }
