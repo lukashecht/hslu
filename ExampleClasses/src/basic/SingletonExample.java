@@ -1,7 +1,5 @@
 package basic;
 
-import java.util.ArrayList;
-
 public final class SingletonExample extends SystemOutPrinter {
 	
 	private static SingletonExample _instance;
@@ -18,9 +16,9 @@ public final class SingletonExample extends SystemOutPrinter {
 		return _instance;
 	}
 
-	public void printNextNumber() {
+	public String getNextNumber() {
 		int number = _number;
 		_number++;
-		printText("Next number is " + number);
+		return("Next number is " + number);
 	}
 }

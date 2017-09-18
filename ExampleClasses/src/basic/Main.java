@@ -11,15 +11,5 @@ public class Main {
 		modulo.isDividableBySeven(14);
 		modulo.isDividableBySeven(3);
 		
-		LambdaExample lambda = new LambdaExample();
-		lambda.run();
-		
-		SingletonExample.getInstance().printNextNumber();
-		SingletonExample.getInstance().printNextNumber();
-		SingletonExample.getInstance().printNextNumber();
-		SingletonExample.getInstance().printNextNumber();
-		SingletonExample.getInstance().printNextNumber();
-		SingletonExample.getInstance().printNextNumber();
-		
 	}
 }
